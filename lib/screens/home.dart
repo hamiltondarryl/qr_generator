@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
                       TextFormField(
                         controller: inputQr,
                         validator: ( value){
-                          
+
                           if (value.isEmpty) {
                             return "Vous n'avez rien enter";
                           }
@@ -87,7 +87,7 @@ class _HomeState extends State<Home> {
                   )
                 ),
                  SizedBox(height: 20),
-              Text("Copyright by Hamilton Darryl")
+              Text("Réalisé par Hamilton Darryl (Développeur fullstack)")
             ],
           ),
         ),
